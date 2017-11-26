@@ -7,7 +7,7 @@ done
 
 MY_PATH=`dirname $0`
 FILE=`ls $MY_PATH/sounds|sort -R|head -1`
-echo $FILE
+echo `basename $FILE .mp3`
 FILE=$MY_PATH'/sounds/'$FILE
 
 if [ `which mplayer|wc -l` -eq 1 ]; then
