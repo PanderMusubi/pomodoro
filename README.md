@@ -7,4 +7,6 @@
 After downloading or clong this repository in e.g. `~/workspace`, usage can be made easy be adding the to `~/.bash_aliases` the line
 
     alias pomodoro='~/workspace/pomodoro/pomodoro.sh'
+    alias short-break='~/workspace/pomodoro/short-break.sh'
+    alias long-break='~/workspace/pomodoro/long-break.sh'
 
